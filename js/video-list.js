@@ -7,7 +7,9 @@ $.getJSON("./../../config/video/video.json", function(obj) {
     $.each(items, function(i, item) {
         $("#videoLista").append('\
             <div class="videoCont">\
-                <a href="https://youtu.be/dQw4w9WgXcQ">\
+                <a href="https://www.youtube.com/watch?v=dO3XRVy4N3s">\
+                \
+                <a href="' + item.link + '">\
                 \
                 <div class="miniatura">\
                     <img src="./../../image/' + item.Zdjecie + '" alt="Miniatura">\
