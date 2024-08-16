@@ -43,7 +43,15 @@
     appId: "1:954034678002:web:753e4a966e95206f50c86b",
     measurementId: "G-L85JJB0TTS"
   };
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L85JJB0TTS"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-L85JJB0TTS');
+</script>
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
