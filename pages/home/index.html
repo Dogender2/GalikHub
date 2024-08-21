@@ -26,8 +26,14 @@
     
     <!--   Google   -->
     <script type="module">
+  // Import the functions you need from the SDKs you need
   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-app.js";
   import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.13.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   const firebaseConfig = {
     apiKey: "AIzaSyCICaXdWTSKdmON8Qb66xiuG-yLj8GV7zs",
     authDomain: "galikhub.firebaseapp.com",
@@ -38,11 +44,12 @@
     measurementId: "G-L85JJB0TTS"
   };
 
+  // Initialize Firebase
   const app = initializeApp(firebaseConfig);
   const analytics = getAnalytics(app);
 </script>
 
-    <!-- Google tag (gtag.js) -->
+<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-L85JJB0TTS"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -51,7 +58,6 @@
 
   gtag('config', 'G-L85JJB0TTS');
 </script>
-    
     <!--   JS Libraries   -->
     <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 
